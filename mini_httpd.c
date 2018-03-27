@@ -479,10 +479,18 @@ main( int argc, char** argv )
 	    {
 	    syslog( LOG_CRIT, "unknown user - '%s'", user );
 	    (void) fprintf( stderr, "%s: unknown user - '%s'\n", argv0, user );
+#if 0    
 	    exit( 1 );
+#else	    
+	    (void) fprintf( stderr, "android version--keep going\n");
+#endif
 	    }
+#if 0 
 	uid = pwd->pw_uid;
 	gid = pwd->pw_gid;
+#else	
+	uid=gid=0;
+#endif	
 	}
 
     /* Log file. */
