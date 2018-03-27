@@ -1,0 +1,300 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCEPT_FILTER_NAME	port.h	44;"	d
+ACCEPT_FILTER_NAME	port.h	46;"	d
+add_data	mini_httpd.c	/^add_data( char** bufP, size_t* bufsizeP, size_t* buflenP, char* str, size_t len )$/;"	f	file:
+add_headers	mini_httpd.c	/^add_headers( int s, char* title, char* extra_header, char* me, char* mt, off_t b, time_t mod )$/;"	f	file:
+add_password	htpasswd.c	/^add_password( char* user, FILE* f )$/;"	f	file:
+add_str	mini_httpd.c	/^add_str( char** bufP, size_t* bufsizeP, size_t* buflenP, char* str )$/;"	f	file:
+add_to_request	mini_httpd.c	/^add_to_request( char* str, size_t len )$/;"	f	file:
+add_to_response	mini_httpd.c	/^add_to_response( char* str )$/;"	f	file:
+ARCH	port.h	11;"	d
+ARCH	port.h	14;"	d
+ARCH	port.h	17;"	d
+ARCH	port.h	20;"	d
+ARCH	port.h	23;"	d
+ARCH	port.h	26;"	d
+ARCH	port.h	5;"	d
+ARCH	port.h	8;"	d
+argv0	mini_httpd.c	/^static char* argv0;$/;"	v	file:
+authorization	mini_httpd.c	/^static char* authorization;$/;"	v	file:
+auth_check	mini_httpd.c	/^auth_check( char* dirname )$/;"	f	file:
+AUTH_FILE	mini_httpd.c	146;"	d	file:
+b64_decode	mini_httpd.c	/^b64_decode( const char* str, unsigned char* space, int size )$/;"	f	file:
+b64_decode_table	mini_httpd.c	/^static int b64_decode_table[256] = {$/;"	v	file:
+BINDIR	Makefile	/^BINDIR =	\/usr\/local\/sbin$/;"	m
+build_env	mini_httpd.c	/^build_env( char* fmt, char* arg )$/;"	f	file:
+bytes	mini_httpd.c	/^static off_t bytes;$/;"	v	file:
+CC	Makefile	/^CC =		cc$/;"	m
+CDEFS	Makefile	/^CDEFS =		$(SSL_DEFS) $(SSL_INC)$/;"	m
+certfile	mini_httpd.c	/^static char* certfile;$/;"	v	file:
+CFLAGS	Makefile	/^CFLAGS =	-O $(CDEFS) -static -ansi -pedantic -U__STRICT_ANSI__ -Wall -Wpointer-arith -Wshadow -Wcast-qual -Wcast-align -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wno-long-long$/;"	m
+cgi_interpose_input	mini_httpd.c	/^cgi_interpose_input( int wfd )$/;"	f	file:
+cgi_interpose_output	mini_httpd.c	/^cgi_interpose_output( int rfd, int parse_headers )$/;"	f	file:
+CGI_LD_LIBRARY_PATH	mini_httpd.c	143;"	d	file:
+CGI_NICE	mini_httpd.c	137;"	d	file:
+CGI_PATH	mini_httpd.c	140;"	d	file:
+cgi_pattern	mini_httpd.c	/^static char* cgi_pattern;$/;"	v	file:
+charset	mini_httpd.c	/^static char* charset;$/;"	v	file:
+check_referrer	mini_httpd.c	/^check_referrer( void )$/;"	f	file:
+cipher	mini_httpd.c	/^static char* cipher;$/;"	v	file:
+clear_ndelay	mini_httpd.c	/^clear_ndelay( int fd )$/;"	f	file:
+client_addr	mini_httpd.c	/^static usockaddr client_addr;$/;"	v	file:
+conn_fd	mini_httpd.c	/^static int conn_fd;$/;"	v	file:
+content_length	mini_httpd.c	/^static size_t content_length;$/;"	v	file:
+content_type	mini_httpd.c	/^static char* content_type;$/;"	v	file:
+cookie	mini_httpd.c	/^static char* cookie;$/;"	v	file:
+CR	htpasswd.c	20;"	d	file:
+CRYPTO_LIB	Makefile	/^CRYPTO_LIB =   \/usr\/lib\/x86_64-linux-gnu\/libcrypto.a$/;"	m
+CRYPT_LIB	Makefile	/^CRYPT_LIB =     \/usr\/lib\/x86_64-linux-gnu\/libcrypt.a$/;"	m
+cwd	mini_httpd.c	/^static char cwd[MAXPATHLEN];$/;"	v	file:
+data_dir	mini_httpd.c	/^static char* data_dir;$/;"	v	file:
+debug	mini_httpd.c	/^static int debug;$/;"	v	file:
+DEFAULT_CERTFILE	mini_httpd.c	130;"	d	file:
+DEFAULT_CHARSET	mini_httpd.c	155;"	d	file:
+DEFAULT_HTTPS_PORT	mini_httpd.c	127;"	d	file:
+DEFAULT_HTTP_PORT	mini_httpd.c	123;"	d	file:
+DEFAULT_USER	mini_httpd.c	134;"	d	file:
+de_dotdot	mini_httpd.c	/^de_dotdot( char* f )$/;"	f	file:
+dir	mini_httpd.c	/^static char* dir;$/;"	v	file:
+DL_LIB	Makefile	/^DL_LIB     =   \/usr\/lib\/x86_64-linux-gnu\/libdl.a$/;"	m
+do_cgi	mini_httpd.c	/^do_cgi( void )$/;"	f	file:
+do_chroot	mini_httpd.c	/^static int do_chroot;$/;"	v	file:
+do_dir	mini_httpd.c	/^do_dir( void )$/;"	f	file:
+do_file	mini_httpd.c	/^do_file( void )$/;"	f	file:
+do_ssl	mini_httpd.c	/^static int do_ssl;$/;"	v	file:
+enc_tab	mini_httpd.c	/^static struct mime_entry enc_tab[] = {$/;"	v	typeref:struct:mime_entry	file:
+ERR_DIR	mini_httpd.c	120;"	d	file:
+ext	mini_httpd.c	/^    char* ext;$/;"	m	struct:mime_entry	file:
+ext_compare	mini_httpd.c	/^ext_compare( const void* v1, const void* v2 )$/;"	f	file:
+ext_len	mini_httpd.c	/^    size_t ext_len;$/;"	m	struct:mime_entry	file:
+e_malloc	mini_httpd.c	/^e_malloc( size_t size )$/;"	f	file:
+e_realloc	mini_httpd.c	/^e_realloc( void* optr, size_t size )$/;"	f	file:
+e_strdup	mini_httpd.c	/^e_strdup( char* ostr )$/;"	f	file:
+figure_mime	mini_httpd.c	/^figure_mime( char* name, char* me, size_t me_size )$/;"	f	file:
+file	mini_httpd.c	/^static char* file;$/;"	v	file:
+file_details	mini_httpd.c	/^file_details( const char* d, const char* name )$/;"	f	file:
+finish_request	mini_httpd.c	/^finish_request( int exitstatus )$/;"	f	file:
+getpass	htpasswd.c	/^char *getpass(const char *prompt) {$/;"	f
+getword	htpasswd.c	/^static void getword(char *word, char *line, char stop) {$/;"	f	file:
+get_method_str	mini_httpd.c	/^get_method_str( int m )$/;"	f	file:
+get_pathinfo	mini_httpd.c	/^get_pathinfo( void )$/;"	f	file:
+get_request_line	mini_httpd.c	/^get_request_line( void )$/;"	f	file:
+got_hup	mini_httpd.c	/^static int got_hup;$/;"	v	file:
+handle_read_timeout	mini_httpd.c	/^handle_read_timeout( int sig )$/;"	f	file:
+handle_request	mini_httpd.c	/^handle_request( void )$/;"	f	file:
+handle_sigchld	mini_httpd.c	/^handle_sigchld( int sig )$/;"	f	file:
+handle_sighup	mini_httpd.c	/^handle_sighup( int sig )$/;"	f	file:
+handle_sigterm	mini_httpd.c	/^handle_sigterm( int sig )$/;"	f	file:
+handle_write_timeout	mini_httpd.c	/^handle_write_timeout( int sig )$/;"	f	file:
+HAVE_ACCEPT_FILTERS	port.h	42;"	d
+HAVE_DAEMON	port.h	31;"	d
+HAVE_DAEMON	port.h	52;"	d
+HAVE_DAEMON	port.h	63;"	d
+HAVE_DAEMON	port.h	74;"	d
+HAVE_HSTRERROR	port.h	35;"	d
+HAVE_HSTRERROR	port.h	56;"	d
+HAVE_HSTRERROR	port.h	67;"	d
+HAVE_INT64T	port.h	39;"	d
+HAVE_INT64T	port.h	59;"	d
+HAVE_INT64T	port.h	70;"	d
+HAVE_INT64T	port.h	81;"	d
+HAVE_INT64T	port.h	89;"	d
+HAVE_LINUX_SENDFILE	port.h	79;"	d
+HAVE_LINUX_SENDFILE	port.h	92;"	d
+HAVE_MEMORY_H	port.h	108;"	d
+HAVE_MEMORY_H	port.h	87;"	d
+HAVE_RAND	port.h	110;"	d
+HAVE_RAND	port.h	90;"	d
+HAVE_SCANDIR	port.h	38;"	d
+HAVE_SCANDIR	port.h	58;"	d
+HAVE_SCANDIR	port.h	69;"	d
+HAVE_SCANDIR	port.h	80;"	d
+HAVE_SCANDIR	port.h	99;"	d
+HAVE_SENDFILE	port.h	37;"	d
+HAVE_SENDFILE	port.h	78;"	d
+HAVE_SENDFILE	port.h	91;"	d
+HAVE_SETLOGIN	port.h	33;"	d
+HAVE_SETLOGIN	port.h	54;"	d
+HAVE_SETLOGIN	port.h	65;"	d
+HAVE_SETLOGIN	port.h	97;"	d
+HAVE_SETSID	port.h	106;"	d
+HAVE_SETSID	port.h	32;"	d
+HAVE_SETSID	port.h	53;"	d
+HAVE_SETSID	port.h	64;"	d
+HAVE_SETSID	port.h	75;"	d
+HAVE_SETSID	port.h	85;"	d
+HAVE_SETSID	port.h	96;"	d
+HAVE_SIGSET	port.h	109;"	d
+HAVE_SIGSET	port.h	88;"	d
+HAVE_SRANDOMDEV	port.h	40;"	d
+HAVE_TM_GMTOFF	port.h	100;"	d
+HAVE_TM_GMTOFF	port.h	36;"	d
+HAVE_TM_GMTOFF	port.h	57;"	d
+HAVE_TM_GMTOFF	port.h	68;"	d
+HAVE_TM_GMTOFF	port.h	77;"	d
+HAVE_WAITPID	port.h	107;"	d
+HAVE_WAITPID	port.h	34;"	d
+HAVE_WAITPID	port.h	55;"	d
+HAVE_WAITPID	port.h	66;"	d
+HAVE_WAITPID	port.h	76;"	d
+HAVE_WAITPID	port.h	86;"	d
+HAVE_WAITPID	port.h	98;"	d
+hexit	mini_httpd.c	/^hexit( char c )$/;"	f	file:
+host	mini_httpd.c	/^static char* host;$/;"	v	file:
+hostname	mini_httpd.c	/^static char* hostname;$/;"	v	file:
+hostname_buf	mini_httpd.c	/^static char hostname_buf[500];$/;"	v	file:
+if_modified_since	mini_httpd.c	/^static time_t if_modified_since;$/;"	v	file:
+initialize_listen_socket	mini_httpd.c	/^initialize_listen_socket( usockaddr* usaP )$/;"	f	file:
+init_mime	mini_httpd.c	/^init_mime( void )$/;"	f	file:
+interrupted	htpasswd.c	/^void interrupted(int signo) {$/;"	f
+is_leap	tdate_parse.c	/^is_leap( int year )$/;"	f	file:
+itoa64	htpasswd.c	/^static unsigned char itoa64[] =         \/* 0 ... 63 => ascii - 64 *\/$/;"	v	file:
+l	tdate_parse.c	/^    long l;$/;"	m	struct:strlong	file:
+LDFLAGS	Makefile	/^LDFLAGS =	-s -static$/;"	m
+LDLIBS	Makefile	/^LDLIBS =	$(CRYPT_LIB) $(SSL_LIBS) $(SYSV_LIBS) $(DL_LIB)$/;"	m
+LF	htpasswd.c	19;"	d	file:
+LINGER_READ	mini_httpd.c	1401;"	d	file:
+LINGER_SECS	mini_httpd.c	1403;"	d	file:
+LINGER_SOCKOPT	mini_httpd.c	1400;"	d	file:
+listen4_fd	mini_httpd.c	/^static int listen4_fd, listen6_fd;$/;"	v	file:
+listen6_fd	mini_httpd.c	/^static int listen4_fd, listen6_fd;$/;"	v	file:
+local_pattern	mini_httpd.c	/^static char* local_pattern;$/;"	v	file:
+logfile	mini_httpd.c	/^static char* logfile;$/;"	v	file:
+logfp	mini_httpd.c	/^static FILE* logfp;$/;"	v	file:
+lookup_hostname	mini_httpd.c	/^lookup_hostname( usockaddr* usa4P, size_t sa4_len, int* gotv4P, usockaddr* usa6P, size_t sa6_len, int* gotv6P )$/;"	f	file:
+main	htpasswd.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	mini_httpd.c	/^main( int argc, char** argv )$/;"	f
+make_argp	mini_httpd.c	/^make_argp( void )$/;"	f	file:
+make_envp	mini_httpd.c	/^make_envp( void )$/;"	f	file:
+make_log_entry	mini_httpd.c	/^make_log_entry( void )$/;"	f	file:
+MANDIR	Makefile	/^MANDIR =	\/usr\/local\/man$/;"	m
+match	match.c	/^match( const char* pattern, const char* string )$/;"	f
+match_one	match.c	/^match_one( const char* pattern, int patternlen, const char* string )$/;"	f	file:
+MAX	mini_httpd.c	110;"	d	file:
+max_age	mini_httpd.c	/^static int max_age;$/;"	v	file:
+MAX_SEND_BUFFER_SIZE	mini_httpd.c	158;"	d	file:
+MAX_STRING_LEN	htpasswd.c	22;"	d	file:
+method	mini_httpd.c	/^static int method;$/;"	v	file:
+METHOD_GET	mini_httpd.c	163;"	d	file:
+METHOD_HEAD	mini_httpd.c	164;"	d	file:
+METHOD_POST	mini_httpd.c	165;"	d	file:
+METHOD_UNKNOWN	mini_httpd.c	162;"	d	file:
+mime_entry	mini_httpd.c	/^struct mime_entry {$/;"	s	file:
+MIN	mini_httpd.c	113;"	d	file:
+mini_httpd_precmd	scripts/mini_httpd.sh	/^mini_httpd_precmd ()$/;"	f
+my_getline	htpasswd.c	/^static int my_getline(char *s, int n, FILE *f) {$/;"	f	file:
+my_read	mini_httpd.c	/^my_read( char* buf, size_t size )$/;"	f	file:
+my_sendfile	mini_httpd.c	/^my_sendfile( int fd, int s, off_t offset, size_t nbytes )$/;"	f	file:
+my_write	mini_httpd.c	/^my_write( void* buf, size_t size )$/;"	f	file:
+no_empty_referrers	mini_httpd.c	/^static int no_empty_referrers;$/;"	v	file:
+NO_SNPRINTF	port.h	101;"	d
+no_value_required	mini_httpd.c	/^no_value_required( char* name, char* value )$/;"	f	file:
+ntoa	mini_httpd.c	/^ntoa( usockaddr* usaP )$/;"	f	file:
+n_enc_tab	mini_httpd.c	/^static const int n_enc_tab = sizeof(enc_tab) \/ sizeof(*enc_tab);$/;"	v	file:
+n_typ_tab	mini_httpd.c	/^static const int n_typ_tab = sizeof(typ_tab) \/ sizeof(*typ_tab);$/;"	v	file:
+ol_strcpy	mini_httpd.c	117;"	d	file:
+OS_DigitalUnix	port.h	19;"	d
+OS_FreeBSD	port.h	4;"	d
+OS_Linux	port.h	13;"	d
+OS_NetBSD	port.h	10;"	d
+OS_OpenBSD	port.h	7;"	d
+OS_Solaris	port.h	16;"	d
+OS_SysV	port.h	22;"	d
+OS_UNKNOWN	port.h	25;"	d
+p3p	mini_httpd.c	/^static char* p3p;$/;"	v	file:
+path	mini_httpd.c	/^static char* path;$/;"	v	file:
+pathinfo	mini_httpd.c	/^static char* pathinfo;$/;"	v	file:
+pidfile	mini_httpd.c	/^static char* pidfile;$/;"	v	file:
+port	mini_httpd.c	/^static unsigned short port;$/;"	v	file:
+post_post_garbage_hack	mini_httpd.c	/^post_post_garbage_hack( void )$/;"	f	file:
+pound_case	tdate_parse.c	/^pound_case( char* str )$/;"	f	file:
+protocol	mini_httpd.c	/^static char* protocol;$/;"	v	file:
+putline	htpasswd.c	/^static void putline(FILE *f,char *l) {$/;"	f	file:
+query	mini_httpd.c	/^static char* query;$/;"	v	file:
+random	port.h	115;"	d
+read_config	mini_httpd.c	/^read_config( char* filename )$/;"	f	file:
+READ_TIMEOUT	mini_httpd.c	149;"	d	file:
+really_check_referrer	mini_httpd.c	/^really_check_referrer( void )$/;"	f	file:
+referrer	mini_httpd.c	/^static char* referrer;$/;"	v	file:
+remoteuser	mini_httpd.c	/^static char* remoteuser;$/;"	v	file:
+request	mini_httpd.c	/^static char* request;$/;"	v	file:
+request_idx	mini_httpd.c	/^static size_t request_size, request_len, request_idx;$/;"	v	file:
+request_len	mini_httpd.c	/^static size_t request_size, request_len, request_idx;$/;"	v	file:
+request_size	mini_httpd.c	/^static size_t request_size, request_len, request_idx;$/;"	v	file:
+req_hostname	mini_httpd.c	/^static char* req_hostname;$/;"	v	file:
+response	mini_httpd.c	/^static char* response;$/;"	v	file:
+response_len	mini_httpd.c	/^static size_t response_size, response_len;$/;"	v	file:
+response_size	mini_httpd.c	/^static size_t response_size, response_len;$/;"	v	file:
+re_open_logfile	mini_httpd.c	/^re_open_logfile( void )$/;"	f	file:
+s	tdate_parse.c	/^    char* s;$/;"	m	struct:strlong	file:
+sa	mini_httpd.c	/^    struct sockaddr sa;$/;"	m	union:__anon1	typeref:struct:__anon1::sockaddr	file:
+sa_in	mini_httpd.c	/^    struct sockaddr_in sa_in;$/;"	m	union:__anon1	typeref:struct:__anon1::sockaddr_in	file:
+sa_in6	mini_httpd.c	/^    struct sockaddr_in6 sa_in6;$/;"	m	union:__anon1	typeref:struct:__anon1::sockaddr_in6	file:
+sa_stor	mini_httpd.c	/^    struct sockaddr_storage sa_stor;$/;"	m	union:__anon1	typeref:struct:__anon1::sockaddr_storage	file:
+sb	mini_httpd.c	/^struct stat sb;$/;"	v	typeref:struct:stat
+scan_mon	tdate_parse.c	/^scan_mon( char* str_mon, long* tm_monP )$/;"	f	file:
+scan_wday	tdate_parse.c	/^scan_wday( char* str_wday, long* tm_wdayP )$/;"	f	file:
+send_authenticate	mini_httpd.c	/^send_authenticate( char* realm )$/;"	f	file:
+send_error	mini_httpd.c	/^send_error( int s, char* title, char* extra_header, char* text )$/;"	f	file:
+send_error_body	mini_httpd.c	/^send_error_body( int s, char* title, char* text )$/;"	f	file:
+send_error_file	mini_httpd.c	/^send_error_file( char* filename )$/;"	f	file:
+send_error_tail	mini_httpd.c	/^send_error_tail( void )$/;"	f	file:
+send_response	mini_httpd.c	/^send_response( void )$/;"	f	file:
+send_via_sendfile	mini_httpd.c	/^send_via_sendfile( int fd, int s, off_t size )$/;"	f	file:
+send_via_write	mini_httpd.c	/^send_via_write( int fd, off_t size )$/;"	f	file:
+SERVER_SOFTWARE	version.h	6;"	d
+SERVER_URL	version.h	7;"	d
+set_ndelay	mini_httpd.c	/^set_ndelay( int fd )$/;"	f	file:
+SHUT_WR	mini_httpd.c	94;"	d	file:
+SIZE_T_MAX	mini_httpd.c	98;"	d	file:
+snprintf	mini_httpd.c	/^snprintf( char* str, size_t size, const char* format, ... )$/;"	f	file:
+sockaddr_check	mini_httpd.c	/^sockaddr_check( usockaddr* usaP )$/;"	f	file:
+sockaddr_len	mini_httpd.c	/^sockaddr_len( usockaddr* usaP )$/;"	f	file:
+srandom	port.h	114;"	d
+ssl	mini_httpd.c	/^static SSL* ssl;$/;"	v	file:
+ssl_ctx	mini_httpd.c	/^static SSL_CTX* ssl_ctx;$/;"	v	file:
+SSL_DEFS	Makefile	/^SSL_DEFS =     -DUSE_SSL$/;"	m
+SSL_INC	Makefile	/^SSL_INC =      -I\/usr\/include\/openssl$/;"	m
+SSL_LIB	Makefile	/^SSL_LIB    =   \/usr\/lib\/x86_64-linux-gnu\/libssl.a$/;"	m
+SSL_LIBS	Makefile	/^SSL_LIBS =     $(SSL_LIB) $(CRYPTO_LIB)$/;"	m
+start_request	mini_httpd.c	/^start_request( void )$/;"	f	file:
+start_response	mini_httpd.c	/^start_response( void )$/;"	f	file:
+status	mini_httpd.c	/^static int status;$/;"	v	file:
+STDERR_FILENO	mini_httpd.c	90;"	d	file:
+STDIN_FILENO	mini_httpd.c	84;"	d	file:
+STDOUT_FILENO	mini_httpd.c	87;"	d	file:
+strd	htpasswd.c	/^static char * strd(char *s) {$/;"	f	file:
+strdecode	mini_httpd.c	/^strdecode( char* to, char* from )$/;"	f	file:
+strencode	mini_httpd.c	/^strencode( char* to, size_t tosize, const char* from )$/;"	f	file:
+strlong	tdate_parse.c	/^struct strlong {$/;"	s	file:
+strlong_compare	tdate_parse.c	/^strlong_compare( const void* v1, const void* v2 )$/;"	f	file:
+strlong_search	tdate_parse.c	/^strlong_search( char* str, struct strlong* tab, int n, long* lP )$/;"	f	file:
+TCP_NOPUSH	mini_httpd.c	69;"	d	file:
+tdate_parse	tdate_parse.c	/^tdate_parse( char* str )$/;"	f
+temp_template	htpasswd.c	/^char temp_template[] = "\/tmp\/htp.XXXXXX";$/;"	v
+tfd	htpasswd.c	/^int tfd;$/;"	v
+timezone	mini_httpd.c	106;"	d	file:
+tm_to_time	tdate_parse.c	/^tm_to_time( struct tm* tmP )$/;"	f	file:
+to64	htpasswd.c	/^static void to64(char *s, long v, int n) {$/;"	f	file:
+typ_tab	mini_httpd.c	/^static struct mime_entry typ_tab[] = {$/;"	v	typeref:struct:mime_entry	file:
+url_pattern	mini_httpd.c	/^static char* url_pattern;$/;"	v	file:
+usage	htpasswd.c	/^static void usage(void) {$/;"	f	file:
+usage	mini_httpd.c	/^usage( void )$/;"	f	file:
+user	mini_httpd.c	/^static char* user;$/;"	v	file:
+useragent	mini_httpd.c	/^static char* useragent;$/;"	v	file:
+USE_IPV6	mini_httpd.c	80;"	d	file:
+usockaddr	mini_httpd.c	/^    } usockaddr;$/;"	t	typeref:union:__anon1	file:
+val	mini_httpd.c	/^    char* val;$/;"	m	struct:mime_entry	file:
+value_required	mini_httpd.c	/^value_required( char* name, char* value )$/;"	f	file:
+val_len	mini_httpd.c	/^    size_t val_len;$/;"	m	struct:mime_entry	file:
+vhost	mini_httpd.c	/^static int vhost;$/;"	v	file:
+virtual_file	mini_httpd.c	/^virtual_file( char* f )$/;"	f	file:
+WRITE_TIMEOUT	mini_httpd.c	152;"	d	file:
+_MATCH_H_	match.h	29;"	d
+_TDATE_PARSE_H_	tdate_parse.h	29;"	d
+_VERSION_H_	version.h	4;"	d
